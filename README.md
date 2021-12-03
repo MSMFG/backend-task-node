@@ -1,5 +1,5 @@
 # MoneySuperMarket.com 
-## Java Developer Technical Test
+## NodeJS Developer Technical Test
 
 ## Overview
 
@@ -35,7 +35,7 @@ https://api.bitfinex.com/v1/pubticker/btcusd
 
 The application responds on http://localhost:8080/exchangeapp/highestprice/
 
-## Stetch Goal
+## Stretch Goal
 
 Finished early? We'd also like to look at including a parameter to expand beyond just USD selling prices.
 
@@ -43,8 +43,5 @@ You'll need to extend the application to include bitfinex within the highest pri
 
 ## Technologies
 
- * Java 1.8
- * Gradle
- * JUnit
- * Mockito
- * Hamcrest/AssertJ
+ * NPM
+ * Jest
