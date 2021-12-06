@@ -19,9 +19,8 @@ It finds the exchange with the best (highest) price and returns the price and th
 3. 	Unzip to a <your_code> folder of your choice.
 4.	Open your IDE of choice, and open/import the <your_code> folder.
 5.  Open a terminal navigate to the ./<your_code> folder and either `npm install` or `yarn` dependant on your preference
-6.  Execute: `./gradlew bootRun` and ensure the project builds, tests and runs successfully 
-7.	Open http://localhost:8080/exchangeapp/highestprice/ in a browser and view the response from the application e.g.:
-![img_1.png](readme_files/img_1.png)
+6.  Execute: `npm run test` to run tests.
+7.	Execute: `npm run start` and ensure the project builds and runs successfully 
       
 ## Exercise
 
@@ -33,13 +32,11 @@ https://api.bitfinex.com/v1/pubticker/btcusd
 
 (hint - you'll need the ask price)
 
-The application responds on http://localhost:8080/exchangeapp/highestprice/
+The application responds on http://localhost:3000/exchangeapp/highestprice/
 
 ## Stretch Goal
 
 Finished early? We'd also like to look at including a parameter to expand beyond just USD selling prices.
-
-You'll need to extend the application to include bitfinex within the highest price calculation.
 
 ## Technologies
 

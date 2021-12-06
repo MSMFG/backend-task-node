@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+const fetch = require('node-fetch');
 
 async function getBlockchainUSDPrice(){
     let response = await fetch('https://blockchain.info/ticker');
@@ -23,7 +23,7 @@ async function getExmoUSDPrice(){
     return {sellPrice: response['BTC_USD']?.sell_price};
 }
 
-export async function getHighestPrice(){
+async function getHighestPrice(){
     let [blockchainUSDPrice, exmoUSDPrice] = await Promise.all([getBlockchainUSDPrice(),getExmoUSDPrice()]);
 
     let highestPriceResponse;
@@ -39,3 +39,5 @@ export async function getHighestPrice(){
 
     return highestPriceResponse;
 }
+
+module.exports.getHighestPrice = getHighestPrice;
