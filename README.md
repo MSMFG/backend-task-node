@@ -15,7 +15,7 @@ It finds the exchange with the best (highest) price and returns the price and th
 
 ## Prerequisites
 1.	Download and install Node Version Manager or make sure you're running an LTS copy of Node
-2. 	Clone this repo into a folder of your choice.
+2. 	Clone this repo (https://github.com/MSMGCustomerPlatform/backend-task-node) into a folder of your choice i.e. <your_code>.
 3.	Open your IDE of choice, and open/import the <your_code> folder.
 4.  Open a terminal navigate to the ./<your_code> folder and either `npm install` or `yarn` dependant on your preference
 5.  Execute: `npm run test` to run tests.
