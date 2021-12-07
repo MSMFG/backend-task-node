@@ -15,12 +15,11 @@ It finds the exchange with the best (highest) price and returns the price and th
 
 ## Prerequisites
 1.	Download and install Node Version Manager or make sure you're running an LTS copy of Node
-2. 	Download the MSM technical test project files [HERE](https://github.com/MSMGCustomerPlatform/backend-task/archive/refs/heads/main.zip.) and save locally.
-3. 	Unzip to a <your_code> folder of your choice.
-4.	Open your IDE of choice, and open/import the <your_code> folder.
-5.  Open a terminal navigate to the ./<your_code> folder and either `npm install` or `yarn` dependant on your preference
-6.  Execute: `npm run test` to run tests.
-7.	Execute: `npm run start` and ensure the project builds and runs successfully 
+2. 	Clone this repo into a folder of your choice.
+3.	Open your IDE of choice, and open/import the <your_code> folder.
+4.  Open a terminal navigate to the ./<your_code> folder and either `npm install` or `yarn` dependant on your preference
+5.  Execute: `npm run test` to run tests.
+6.	Execute: `npm run start` and ensure the project builds and runs successfully 
       
 ## Exercise
 
