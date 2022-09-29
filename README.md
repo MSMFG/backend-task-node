@@ -21,22 +21,6 @@ It finds the exchange with the best (highest) price and returns the price and th
 5.  Execute: `npm run test` to run tests.
 6.	Execute: `npm run start` and ensure the project builds and runs successfully 
       
-## Exercise
-
-We've done a deal with a new exchange and would like to include their prices in the application.  Feel free to refactor
-the existing code as you see fit so that it adheres to SOLID principles.
-
-The new Api is:
-https://api.bitfinex.com/v1/pubticker/btcusd
-
-(hint - you'll need the ask price)
-
-The application responds on http://localhost:3000/exchangeapp/highestprice/
-
-## Stretch Goal
-
-Finished early? We'd also like to look at including a parameter to expand beyond just USD selling prices.
-
 ## Technologies
 
  * NPM
